@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://studentmangsys.netlify.app/"
+        "https://studentmangsys.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
